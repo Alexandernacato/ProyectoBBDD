@@ -1,0 +1,48 @@
+
+/* Menú global */
+.main-nav {
+    background-color: #37475a;  /* Fondo oscuro */
+    width: 100%;
+    height: 150px;  /* Altura fija de 150px */
+    display: flex;
+    justify-content: center;  /* Centrado del contenido */
+    align-items: center;  /* Centrado verticalmente */
+}
+.main-nav{
+    height: 50px;
+}
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Menú horizontal */
+    gap: 30px;  /* Espacio entre los elementos */
+}
+
+.main-nav ul li {
+    position: relative;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;  /* Tamaño más pequeño y adecuado */
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+}
+
+.main-nav ul li a:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);  /* Efecto de agrandamiento */
+}
+
+/* Footer */
+footer {
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
